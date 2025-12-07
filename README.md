@@ -5,9 +5,9 @@ The goal is to understand how customers shop, what drives spending, which produc
 
 The project follows a complete Data Analytics Workflow:
 Python → SQL → Power BI → Business Insights
-1. Project Overview
+1. Project Overview - 
    This end-to-end project explores customer purchasing patterns across demographics, product categories, seasons, and engagement levels.
-2. Dataset Summary
+2. Dataset Summary - 
    The dataset captures demographic, transactional, and behavioral information across:
    Customer Demographics - Age, Gender, Location, Customer ID
    Product & Transaction Information - Item Purchased, Category, Purchase Amount, Season, Size, Colour, Discount Applied, Review Rating, Shipping Type, Promo Code Used
@@ -18,7 +18,7 @@ Python → SQL → Power BI → Business Insights
    Engineered features:
    age_group
    purchase_frequency_days
-3. Exploratory Data Analysis (Python)
+3. Exploratory Data Analysis (Python) - 
    Python was used to perform data cleaning, preparation, and feature engineering.
    - Missing Value Treatment
      Review ratings were imputed using category-wise medians, ensuring realistic replacement.
@@ -32,7 +32,7 @@ Python → SQL → Power BI → Business Insights
      promo_code_used was dropped after identifying it duplicated discount information.
    -Database Loading
     The cleaned dataset was uploaded into SQL Server using SQLAlchemy + pyodbc, enabling advanced business querying.
-4. SQL-Based Business Insights
+4. SQL-Based Business Insights - 
    Twenty SQL queries were executed to extract actionable business insights across demographics, product behavior, satisfaction, and engagement.
    -Key Findings
    1. Revenue & Frequency by Age Group
@@ -53,7 +53,7 @@ Python → SQL → Power BI → Business Insights
       Window functions identified best-sellers across each category (e.g., Jewelry, Blouse, Sandals).
    9. Repeat Buyers & Subscription
        Customers with >5 previous purchases were more likely to be subscribers.
-5. Power BI Dashboard
+5. Power BI Dashboard - 
    The final dashboard consists of two insight-driven pages:
    one focusing on customer behaviour and segmentation, and the second focusing on product and category performance.
    Page 1 — Customer Overview & Behaviour
@@ -70,7 +70,7 @@ Python → SQL → Power BI → Business Insights
     Footwear and Accessories have the highest average ratings.
     Express shipping users spend slightly more, but Standard shipping is rated higher.
     Discount-heavy items still contribute strongly to revenue.
-6. Business Recommendations
+6. Business Recommendations - 
    1. Strengthen Subscription Campaigns -Subscribers purchase more frequently—target high-engagement customers for subscription conversion.
    2. Enhance Loyalty Benefits - Offer incentives (points, exclusive deals, early access) to retain loyal customers.
    3. Optimize Seasonal Campaigns - Since Fall and Spring bring the highest revenue, align promotions with these periods.
